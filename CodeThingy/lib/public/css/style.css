@@ -1,0 +1,28 @@
+html { height: 100%; }
+body { margin: 0; height: 100%; position: relative; }
+/* Height / width / positioning can be customized for your use case.
+   For demo purposes, we make firepad fill the entire browser. */
+.code_thingy, #firepad-container, #code_thingy {
+  left: 0; top: 0; bottom: 0; right: 0; height: 100%; width: 100%;
+}
+
+.debug {
+	position: absolute; top: 0; background: black; z-index: 100000000;
+}
+
+.none { display: none;}
+.firepad {height: 100% !important;}
+
+.progress_hud {
+	position: fixed;
+	left: 0; top: 0; bottom: 0; right: 0; height: 100%; width: 100%;
+	background-color: rgba(0,0,0,.5);
+	z-index: 1000;
+}
+
+.progress_hud img {
+	top: 45%;
+	left: 45%;
+	position: fixed;
+	width: 10%;
+}

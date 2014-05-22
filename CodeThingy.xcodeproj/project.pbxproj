@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A2D5EB41862C36100107D70 /* NSAlert+Popover.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2D5EB31862C36100107D70 /* NSAlert+Popover.m */; };
+		0A4F0545185FF4FF00BFCB4C /* faCloudDownloadTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A4F0542185FF4FF00BFCB4C /* faCloudDownloadTemplate.pdf */; };
+		0A4F0546185FF4FF00BFCB4C /* faCloudTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A4F0543185FF4FF00BFCB4C /* faCloudTemplate.pdf */; };
+		0A4F0547185FF4FF00BFCB4C /* faCloudUploadTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0A4F0544185FF4FF00BFCB4C /* faCloudUploadTemplate.pdf */; };
+		0A5B0D0F186424D700648A1C /* KCDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B0D0E186424D700648A1C /* KCDocumentController.m */; };
+		0A632DFC183337860089BEA8 /* KCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A632DFB183337860089BEA8 /* KCAppDelegate.m */; };
+		0A99A24518472C9100C28700 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A99A24418472C9100C28700 /* OCMock.framework */; };
+		0A9AC33018302AC50087C485 /* NSString+TokenReplace.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9AC32F18302AC50087C485 /* NSString+TokenReplace.m */; };
 		0AA64A13182F5E9600A31DAD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA64A12182F5E9600A31DAD /* Cocoa.framework */; };
 		0AA64A1D182F5E9600A31DAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AA64A1B182F5E9600A31DAD /* InfoPlist.strings */; };
 		0AA64A1F182F5E9600A31DAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA64A1E182F5E9600A31DAD /* main.m */; };
@@ -19,6 +27,9 @@
 		0AA64A36182F5E9600A31DAD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA64A12182F5E9600A31DAD /* Cocoa.framework */; };
 		0AA64A3E182F5E9600A31DAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AA64A3C182F5E9600A31DAD /* InfoPlist.strings */; };
 		0AA64A40182F5E9600A31DAD /* CodeThingyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA64A3F182F5E9600A31DAD /* CodeThingyTests.m */; };
+		0AA64A4A182F639000A31DAD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA64A49182F639000A31DAD /* WebKit.framework */; };
+		0AA64A4C182F64DA00A31DAD /* public in Resources */ = {isa = PBXBuildFile; fileRef = 0AA64A4B182F64D900A31DAD /* public */; };
+		0AA64A52182F71EF00A31DAD /* KCDocumentUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA64A51182F71EF00A31DAD /* KCDocumentUI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +43,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A2D5EB21862C36100107D70 /* NSAlert+Popover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSAlert+Popover.h"; path = "../../../Resources/git/NSAlert-Popover/NSAlert+Popover.h"; sourceTree = "<group>"; };
+		0A2D5EB31862C36100107D70 /* NSAlert+Popover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSAlert+Popover.m"; path = "../../../Resources/git/NSAlert-Popover/NSAlert+Popover.m"; sourceTree = "<group>"; };
+		0A4F0542185FF4FF00BFCB4C /* faCloudDownloadTemplate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = faCloudDownloadTemplate.pdf; path = CodeThingy/lib/faCloudDownloadTemplate.pdf; sourceTree = "<group>"; };
+		0A4F0543185FF4FF00BFCB4C /* faCloudTemplate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = faCloudTemplate.pdf; path = CodeThingy/lib/faCloudTemplate.pdf; sourceTree = "<group>"; };
+		0A4F0544185FF4FF00BFCB4C /* faCloudUploadTemplate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = faCloudUploadTemplate.pdf; path = CodeThingy/lib/faCloudUploadTemplate.pdf; sourceTree = "<group>"; };
+		0A5B0D0D186424D700648A1C /* KCDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KCDocumentController.h; path = CodeThingy/KCDocumentController.h; sourceTree = "<group>"; };
+		0A5B0D0E186424D700648A1C /* KCDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KCDocumentController.m; path = CodeThingy/KCDocumentController.m; sourceTree = "<group>"; };
+		0A632DFA183337860089BEA8 /* KCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCAppDelegate.h; sourceTree = "<group>"; };
+		0A632DFB183337860089BEA8 /* KCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCAppDelegate.m; sourceTree = "<group>"; };
+		0A99A24418472C9100C28700 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = CodeThingyTests/lib/OCMock.framework; sourceTree = "<group>"; };
+		0A99A24618490D9300C28700 /* KCJavaScripts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCJavaScripts.h; sourceTree = "<group>"; };
+		0A9AC32E18302AC50087C485 /* NSString+TokenReplace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+TokenReplace.h"; path = "../../Verse/Verse/NSString+TokenReplace.h"; sourceTree = "<group>"; };
+		0A9AC32F18302AC50087C485 /* NSString+TokenReplace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+TokenReplace.m"; path = "../../Verse/Verse/NSString+TokenReplace.m"; sourceTree = "<group>"; };
 		0AA64A0F182F5E9600A31DAD /* CodeThingy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeThingy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA64A12182F5E9600A31DAD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0AA64A15182F5E9600A31DAD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -52,6 +76,10 @@
 		0AA64A3B182F5E9600A31DAD /* CodeThingyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodeThingyTests-Info.plist"; sourceTree = "<group>"; };
 		0AA64A3D182F5E9600A31DAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0AA64A3F182F5E9600A31DAD /* CodeThingyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeThingyTests.m; sourceTree = "<group>"; };
+		0AA64A49182F639000A31DAD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		0AA64A4B182F64D900A31DAD /* public */ = {isa = PBXFileReference; lastKnownFileType = folder; name = public; path = CodeThingy/lib/public; sourceTree = "<group>"; };
+		0AA64A50182F71EF00A31DAD /* KCDocumentUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCDocumentUI.h; sourceTree = "<group>"; };
+		0AA64A51182F71EF00A31DAD /* KCDocumentUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCDocumentUI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA64A4A182F639000A31DAD /* WebKit.framework in Frameworks */,
 				0AA64A13182F5E9600A31DAD /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +97,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AA64A36182F5E9600A31DAD /* Cocoa.framework in Frameworks */,
+				0A99A24518472C9100C28700 /* OCMock.framework in Frameworks */,
 				0AA64A35182F5E9600A31DAD /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,9 +105,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A6A82AC185B7D13003219C9 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				0A9AC32E18302AC50087C485 /* NSString+TokenReplace.h */,
+				0A9AC32F18302AC50087C485 /* NSString+TokenReplace.m */,
+				0A99A24618490D9300C28700 /* KCJavaScripts.h */,
+				0A632DFA183337860089BEA8 /* KCAppDelegate.h */,
+				0A632DFB183337860089BEA8 /* KCAppDelegate.m */,
+				0AA64A2A182F5E9600A31DAD /* MainMenu.xib */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
 		0AA64A06182F5E9600A31DAD = {
 			isa = PBXGroup;
 			children = (
+				0A5B0D0D186424D700648A1C /* KCDocumentController.h */,
+				0A5B0D0E186424D700648A1C /* KCDocumentController.m */,
+				0A4F0542185FF4FF00BFCB4C /* faCloudDownloadTemplate.pdf */,
+				0A4F0543185FF4FF00BFCB4C /* faCloudTemplate.pdf */,
+				0A4F0544185FF4FF00BFCB4C /* faCloudUploadTemplate.pdf */,
+				0AA64A4B182F64D900A31DAD /* public */,
 				0AA64A18182F5E9600A31DAD /* CodeThingy */,
 				0AA64A39182F5E9600A31DAD /* CodeThingyTests */,
 				0AA64A11182F5E9600A31DAD /* Frameworks */,
@@ -97,6 +146,8 @@
 		0AA64A11182F5E9600A31DAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0A99A24418472C9100C28700 /* OCMock.framework */,
+				0AA64A49182F639000A31DAD /* WebKit.framework */,
 				0AA64A12182F5E9600A31DAD /* Cocoa.framework */,
 				0AA64A34182F5E9600A31DAD /* XCTest.framework */,
 				0AA64A14182F5E9600A31DAD /* Other Frameworks */,
@@ -117,10 +168,14 @@
 		0AA64A18182F5E9600A31DAD /* CodeThingy */ = {
 			isa = PBXGroup;
 			children = (
+				0A2D5EB21862C36100107D70 /* NSAlert+Popover.h */,
+				0A2D5EB31862C36100107D70 /* NSAlert+Popover.m */,
+				0A6A82AC185B7D13003219C9 /* app */,
 				0AA64A24182F5E9600A31DAD /* KCDocument.h */,
 				0AA64A25182F5E9600A31DAD /* KCDocument.m */,
+				0AA64A50182F71EF00A31DAD /* KCDocumentUI.h */,
+				0AA64A51182F71EF00A31DAD /* KCDocumentUI.m */,
 				0AA64A27182F5E9600A31DAD /* KCDocument.xib */,
-				0AA64A2A182F5E9600A31DAD /* MainMenu.xib */,
 				0AA64A2D182F5E9600A31DAD /* Images.xcassets */,
 				0AA64A19182F5E9600A31DAD /* Supporting Files */,
 			);
@@ -234,9 +289,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4F0547185FF4FF00BFCB4C /* faCloudUploadTemplate.pdf in Resources */,
 				0AA64A29182F5E9600A31DAD /* KCDocument.xib in Resources */,
 				0AA64A2E182F5E9600A31DAD /* Images.xcassets in Resources */,
 				0AA64A1D182F5E9600A31DAD /* InfoPlist.strings in Resources */,
+				0AA64A4C182F64DA00A31DAD /* public in Resources */,
+				0A4F0546185FF4FF00BFCB4C /* faCloudTemplate.pdf in Resources */,
+				0A4F0545185FF4FF00BFCB4C /* faCloudDownloadTemplate.pdf in Resources */,
 				0AA64A23182F5E9600A31DAD /* Credits.rtf in Resources */,
 				0AA64A2C182F5E9600A31DAD /* MainMenu.xib in Resources */,
 			);
@@ -257,7 +316,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA64A52182F71EF00A31DAD /* KCDocumentUI.m in Sources */,
+				0A5B0D0F186424D700648A1C /* KCDocumentController.m in Sources */,
 				0AA64A26182F5E9600A31DAD /* KCDocument.m in Sources */,
+				0A632DFC183337860089BEA8 /* KCAppDelegate.m in Sources */,
+				0A2D5EB41862C36100107D70 /* NSAlert+Popover.m in Sources */,
+				0A9AC33018302AC50087C485 /* NSString+TokenReplace.m in Sources */,
 				0AA64A1F182F5E9600A31DAD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +461,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/JMModalOverlay-fajunylvaoxpuyafivghptgbjgei/Build/Products/Debug",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodeThingy/CodeThingy-Prefix.pch";
 				INFOPLIST_FILE = "CodeThingy/CodeThingy-Info.plist";
@@ -410,6 +478,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/JMModalOverlay-fajunylvaoxpuyafivghptgbjgei/Build/Products/Debug",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodeThingy/CodeThingy-Prefix.pch";
 				INFOPLIST_FILE = "CodeThingy/CodeThingy-Info.plist";
@@ -426,6 +498,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					/Users/Kevin/Dropbox/Develop/OSX/CodeThingy/CodeThingyTests/lib,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodeThingy/CodeThingy-Prefix.pch";
@@ -448,6 +521,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					/Users/Kevin/Dropbox/Develop/OSX/CodeThingy/CodeThingyTests/lib,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodeThingy/CodeThingy-Prefix.pch";
@@ -477,6 +551,7 @@
 				0AA64A45182F5E9600A31DAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AA64A46182F5E9600A31DAD /* Build configuration list for PBXNativeTarget "CodeThingyTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +560,7 @@
 				0AA64A48182F5E9600A31DAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
